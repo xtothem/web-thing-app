@@ -1,0 +1,74 @@
+body{
+	font-family: "Gill Sans", sans-serif;
+	font-size: 20px;
+	line-height: 1.7;
+	
+}
+.font{
+    color:darkorange;
+}
+
+.button{
+	
+	padding: 1em 2em;
+	border:0;
+    background-color:coral;
+    position: relative;
+}
+
+.button:hover{
+	background-color: rgba(0,0,0,0.1);
+
+}
+
+.modal{
+	display: none;
+	/* enable scroll bar*/
+	overflow: auto;
+	position: fixed;
+	/*how the elements stacks*/
+	z-index: 1;
+	left:0;
+	top:0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.2);
+}
+
+.modal-content{
+	background-color: rgba(87, 68, 255, 0.808);
+	margin: 20% auto;
+	padding: 20px;
+	width: 20%;
+	box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.2);
+}
+
+.closeBtn{
+	float:right;
+	color:black;
+	font-size: 20px;
+}
+
+.closeBtn:hover,.closeBtn:focus{
+	color:black;
+	/*no underline*/
+	text-decoration: none;
+	cursor: wait;
+}
+
+.responsive{
+    position: relative;
+    width: 14.2%;
+    height: auto;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+
